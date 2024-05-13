@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
+    API_ID = int(os.getenv("API_ID", "15039909"))
+    API_HASH = os.getenv("API_HASH", "47578d538a0a3a99f8d7bff28cf45c11")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6803513687:AAExwYHmvH66rFj7ENDK_NEBiFJogXLbdEI")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQDlfaUAalzDE6WsSTJolf7__VpmZIWjTes5PyaZHZGs61Q4wRo3hPHWVkWQnuPjdTBWZ6MO3_rdvbnSfsuJ-xDhoiwlcjahhKHHGuMGDFhi3negaOK4gL8Dc4yoYMl09HZDO8M89HHlau_LUyhLGOyOtZde8oGTyuiEf6rib43N-iQ_MpfPFAbeoPUZL7VniDVbpFjtov9Szfb8ERADp1ykMYr589IOhiooi9e1NuspJ_HKmbsFyqtTW25kDOvZV0tjAjub-e16lEo2zTWt8Uur0ncAZfY4YTYO0tAugJNq7zvC369JVXffUN0UZ5ysU-KaiOw036V81mg8pLFArCRfaVCppwAAAAFJnB_aAA")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1002071043199")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "Teraboxprolinkbot"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAMcyniteba")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "CtgMovie270")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,9 +29,9 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1002078361640")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://autofilterbot62:autofilterbot62@cluster0.gfbi4dx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002078361640"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
